@@ -9,9 +9,6 @@ updates:
    directory: "/"
    schedule:
      interval: "daily"
-
-
-# Maintain dependencies for npm
  - package-ecosystem: "yarn"
    directory: "/"
    schedule:
