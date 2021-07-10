@@ -41,10 +41,11 @@ export const Departures = (): JSX.Element | null => {
             <div>
                 <h1 style={{margin: "20px"}}>
                     Abfahren für
-                    <select onChange={(e) => setSelectedStation(e.target.value)} style={{marginLeft: "10px", height: "30px"}}>
+                    <select onChange={(e) => setSelectedStation(e.target.value)} style={{marginLeft: "10px", marginRight: "10px", fontSize: "1em"}}>
                         <option value="pankow">S+U Pankow</option>
                         <option value="landsbergerAllee">S Landsberger Allee</option>
                     </select>
+                    in den nächsten 30 Minuten
                 </h1>    
             </div>
             <div style={{display: "flex", flexWrap: "wrap"}}>
