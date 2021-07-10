@@ -14,7 +14,7 @@ export const Departure = ({ cancelled, direction, line, when, plannedWhen, delay
     const whenDate = when !== null ? new Date(when) : null;
     const plannedWhenDate = new Date(plannedWhen);
     return (
-        <div style={{border: "1px solid gray", borderRadius: "10px", padding: "10px", margin: "5px", flex: "0 1 300px", backgroundColor: "lightblue"}}>
+        <div style={{border: "1px solid gray", borderRadius: "10px", padding: "10px", margin: "10px", flex: "0 1 300px", backgroundColor: "lightblue"}}>
             <div>{line} | {direction}</div>
             <div style={{color: "red", fontWeight: "bold"}}>{`${cancelled ? "Fahrt fällt aus" : ""}`}</div>
             {

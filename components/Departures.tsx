@@ -3,7 +3,8 @@ import {Departure, DeparturesType} from "./Departure"
 
 export const Departures = (): JSX.Element | null => {
     const [selectedStation, setSelectedStation] = useState("pankow");
-    const [departures, setDepartures] = useState<Array<DeparturesType>>([])
+    const [departures, setDepartures] = useState<Array<DeparturesType>>([]);
+    const currentDate = new Date();
     useEffect(() => {
         const getData = async() => {
             const data = await fetch("/api/departures/" + selectedStation).then(res => res.json())
@@ -39,14 +40,17 @@ export const Departures = (): JSX.Element | null => {
     return (
         <>
             <div>
-                <h1 style={{margin: "20px"}}>
+                <h1 style={{margin: "10px"}}>
                     Abfahren für
                     <select onChange={(e) => setSelectedStation(e.target.value)} style={{marginLeft: "10px", marginRight: "10px", fontSize: "1em"}}>
                         <option value="pankow">S+U Pankow</option>
                         <option value="landsbergerAllee">S Landsberger Allee</option>
                     </select>
                     in den nächsten 30 Minuten
-                </h1>    
+                </h1>
+                <div style={{margin: "10px", border: "1px solid gray", borderRadius: "10px", padding: "10px", backgroundColor: "lightgreen", width: "300px"}}>
+                    <div>Letzte Aktualisierung {`${("0" + currentDate.getHours()).slice(-2)}:${("0" + currentDate.getMinutes()).slice(-2)}:${("0" + currentDate.getSeconds()).slice(-2)} Uhr`}</div>
+                </div>
             </div>
             <div style={{display: "flex", flexWrap: "wrap"}}>
                 {departures.map((departure => <Departure {...departure} key={departure.tripId} />))}
