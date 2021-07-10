@@ -1,6 +1,7 @@
 
 const createClient = require('hafas-client')
 const vbbProfile = require('hafas-client/p/vbb')
+
 const client = createClient(vbbProfile, 'departures-display')
 export default async function handler(req: any, res: any) {
     const {station}: {station: "pankow" | "landsbergerAllee"} = req.query;

@@ -67,6 +67,9 @@ export const Departures = (): JSX.Element | null => {
             <div style={{display: "flex", flexWrap: "wrap"}}>
                 {departures.map((departure => <Departure {...departure} key={departure.tripId} />))}
             </div>
+            <div style={{margin: "10px", border: "1px solid gray", borderRadius: "10px", padding: "10px", backgroundColor: "lightgray", width: "300px"}}>
+                    <div>Quellcode auf <a href="https://github.com/yuki-93/departures-display" target="_blank" rel="noreferrer">GitHub</a>.</div>
+            </div>
         </>
     );
 }
