@@ -6,12 +6,12 @@
 version: 2
 updates:
  - package-ecosystem: "github-actions"
-    directory: "/"
-    schedule:
-      interval: "daily"
+     directory: "/"
+     schedule:
+       interval: "daily"
 
 # Maintain dependencies for npm
 - package-ecosystem: "yarn"
-    directory: "/"
-    schedule:
-      interval: "daily"
+      directory: "/"
+      schedule:
+        interval: "daily"
