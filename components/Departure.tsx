@@ -13,8 +13,16 @@ export interface DeparturesType {
 export const Departure = ({ cancelled, direction, line, when, plannedWhen, delay }: DeparturesType): JSX.Element => {
     const whenDate = when !== null ? new Date(when) : null;
     const plannedWhenDate = new Date(plannedWhen);
+    let colorTile = "lightblue";
+    if (delay !== null) {
+        if (delay < 0) {
+            colorTile = "rgba(0, 255, 0, 0.3)"
+        } else if (delay > 0) {
+            colorTile = "rgba(255, 0, 0, 0.3)"
+        }
+    }
     return (
-        <div style={{border: "1px solid gray", borderRadius: "10px", padding: "10px", margin: "10px", flex: "0 1 300px", backgroundColor: "lightblue"}}>
+        <div style={{border: "1px solid gray", borderRadius: "10px", padding: "10px", margin: "10px", flex: "0 1 300px", backgroundColor: colorTile}}>
             <div>{line} | {direction}</div>
             <div style={{color: "red", fontWeight: "bold"}}>{`${cancelled ? "Fahrt fällt aus" : ""}`}</div>
             {

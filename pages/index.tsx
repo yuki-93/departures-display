@@ -2,9 +2,6 @@ import Head from 'next/head'
 import { Departures } from '../components/Departures'
 
 export default function Home() {
-  global?.window?.setTimeout(() => {
-      global?.window?.location.reload();
-  }, 30*1000);
   return (
     <>
       <Head>
