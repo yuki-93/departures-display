@@ -60,7 +60,7 @@ export const Departures = (): JSX.Element | null => {
                     </select>
                     in den nächsten 30 Minuten
                 </h1>
-                <div style={{margin: "10px", border: "1px solid gray", borderRadius: "10px", padding: "10px", backgroundColor: "lightblue", width: "300px"}}>
+                <div style={{margin: "10px", border: "1px solid gray", borderRadius: "10px", padding: "10px", backgroundColor: "lightgray", width: "300px"}}>
                     <div>Letzte Aktualisierung {`${("0" + currentDate.getHours()).slice(-2)}:${("0" + currentDate.getMinutes()).slice(-2)}:${("0" + currentDate.getSeconds()).slice(-2)} Uhr`}</div>
                 </div>
             </div>
