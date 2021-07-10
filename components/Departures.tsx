@@ -17,8 +17,9 @@ export const Departures = (): JSX.Element | null => {
 
 
             setDepartures(filteredData.map(d => {
-                const { direction, line, when, plannedWhen, delay, tripId } = d;
+                const { direction, line, when, plannedWhen, delay, tripId, cancelled } = d;
                 return {
+                    cancelled,
                     tripId,
                     direction, 
                     line: line.name, 
@@ -35,8 +36,8 @@ export const Departures = (): JSX.Element | null => {
         return null;
     }
     return (
-        <>
+        <div style={{display: "flex", flexWrap: "wrap"}}>
             {departures.map((departure => <Departure {...departure} key={departure.tripId} />))}
-        </>
+        </div>
     );
 }

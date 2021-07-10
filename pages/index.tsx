@@ -1,5 +1,4 @@
 import Head from 'next/head'
-import Image from 'next/image'
 import { Departures } from '../components/Departures'
 
 export default function Home() {
@@ -7,9 +6,10 @@ export default function Home() {
     <>
       <Head>
         <title>Departures Display</title>
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,300" rel="stylesheet" type="text/css" />
       </Head>
-      <main>
-        <h1>
+      <main style={{fontFamily: "'Open Sans', sans-serif", fontStyle: "normal", fontSize: "13px"}}>
+        <h1 style={{margin: "20px"}}>
           Abfahren für S+U Pankow
         </h1>
         <Departures />
