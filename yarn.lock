@@ -1444,10 +1444,10 @@ graceful-fs@^4.1.2:
   resolved "https://registry.yarnpkg.com/graceful-fs/-/graceful-fs-4.2.6.tgz#ff040b2b0853b23c3d31027523706f1885d76bee"
   integrity sha512-nTnJ528pbqxYanhpDYsi4Rd8MAeaBA67+RZ10CM1m3bTAVFEDcd5AuA4a6W5YkGZ1iNXHzZz8T6TBKLeBuNriQ==
 
-hafas-client@^5.16.0:
-  version "5.16.0"
-  resolved "https://registry.yarnpkg.com/hafas-client/-/hafas-client-5.16.0.tgz#7d3266ee7121c1dbe1aaf6cba5cdee6599074ba6"
-  integrity sha512-IAf/c5wlLcxIp1asUVs+IHWc8MGZZXmCpWZRq8FuDpe+k3ETHgaWN+2MBB/Y5R1Lyy1V1Gud5AW+AstzhDl/hA==
+hafas-client@^5.18.0:
+  version "5.18.0"
+  resolved "https://registry.yarnpkg.com/hafas-client/-/hafas-client-5.18.0.tgz#ccc84d3ebcbb5a26dcf4d946c3fa294af8ea5abb"
+  integrity sha512-JztAS9IhRSrnnqV9rMY1L1mdIyQeXUl8jRafmusnHgm11oIus3YSjfOmO3YPZ11kq9C2/lNxqCmqHeFSpl9VYw==
   dependencies:
     "@derhuerst/br2nl" "^1.0.0"
     "@derhuerst/round-robin-scheduler" "^1.0.4"
@@ -1462,7 +1462,7 @@ hafas-client@^5.16.0:
     luxon "^1.3.0"
     object-scan "^13.0.0"
     p-retry "^4.1.0"
-    p-throttle "^3.1.0"
+    p-throttle "^4.1.1"
     pinkie-promise "^2.0.1"
     qs "^6.6.0"
     slugg "^1.2.0"
@@ -2287,10 +2287,10 @@ p-retry@^4.1.0:
     "@types/retry" "^0.12.0"
     retry "^0.13.1"
 
-p-throttle@^3.1.0:
-  version "3.1.0"
-  resolved "https://registry.yarnpkg.com/p-throttle/-/p-throttle-3.1.0.tgz#dee34ce4e77d7cc2dfdc1fea0daedccc64147214"
-  integrity sha512-rLo81NXBihs3GJQhq89IXa0Egj/sbW1zW8/qnyadOwUhIUrZSUvyGdQ46ISRKELFBkVvmMJ4JUqWki4oAh30Qw==
+p-throttle@^4.1.1:
+  version "4.1.1"
+  resolved "https://registry.yarnpkg.com/p-throttle/-/p-throttle-4.1.1.tgz#80b1fbd358af40a8bfa1667f9dc8b72b714ad692"
+  integrity sha512-TuU8Ato+pRTPJoDzYD4s7ocJYcNSEZRvlxoq3hcPI2kZDZ49IQ1Wkj7/gDJc3X7XiEAAvRGtDzdXJI0tC3IL1g==
 
 p-try@^1.0.0:
   version "1.0.0"
