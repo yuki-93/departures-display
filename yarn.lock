@@ -1469,10 +1469,10 @@ graceful-fs@^4.1.2:
   resolved "https://registry.yarnpkg.com/graceful-fs/-/graceful-fs-4.2.6.tgz#ff040b2b0853b23c3d31027523706f1885d76bee"
   integrity sha512-nTnJ528pbqxYanhpDYsi4Rd8MAeaBA67+RZ10CM1m3bTAVFEDcd5AuA4a6W5YkGZ1iNXHzZz8T6TBKLeBuNriQ==
 
-hafas-client@^5.18.0:
-  version "5.18.0"
-  resolved "https://registry.yarnpkg.com/hafas-client/-/hafas-client-5.18.0.tgz#ccc84d3ebcbb5a26dcf4d946c3fa294af8ea5abb"
-  integrity sha512-JztAS9IhRSrnnqV9rMY1L1mdIyQeXUl8jRafmusnHgm11oIus3YSjfOmO3YPZ11kq9C2/lNxqCmqHeFSpl9VYw==
+hafas-client@^5.19.0:
+  version "5.19.0"
+  resolved "https://registry.yarnpkg.com/hafas-client/-/hafas-client-5.19.0.tgz#a42d3b85bbdcb1e8d765f4e7e030fae0edd1b6f4"
+  integrity sha512-aQc7pm7p0Q9IgSqoO09Js15vz+ecYJhhWboTWBdov3t9H9VKg0TQkEMSiECMUNeC87EzyRWhOng5WtV7DmuVzA==
   dependencies:
     "@derhuerst/br2nl" "^1.0.0"
     "@derhuerst/round-robin-scheduler" "^1.0.4"
