@@ -57,6 +57,7 @@ export const Departures = (): JSX.Element | null => {
                     >
                         <option value="pankow">S+U Pankow</option>
                         <option value="landsbergerAllee">S Landsberger Allee</option>
+                        <option value="mollStrOttoBraunStr">Mollstr. / Otto-Braun-Str.</option>
                     </select>
                     in den nächsten 30 Minuten
                 </h1>
