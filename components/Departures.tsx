@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import {Departure, DeparturesType} from "./Departure"
 
 export const Departures = (): JSX.Element | null => {
-    const [selectedStation, setSelectedStation] = useState(global?.window?.sessionStorage.getItem("selectedStation") || "pankow");
+    const [selectedStation, setSelectedStation] = useState(global?.window?.sessionStorage.getItem("selectedStation") || "hennigsdorf");
     const [departures, setDepartures] = useState<Array<DeparturesType>>([]);
     const currentDate = new Date();
 
