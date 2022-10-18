@@ -13,7 +13,6 @@ export const Departures = (): JSX.Element | null => {
     useEffect(() => {
         const getData = async() => {
             const data = await fetch("/api/departures/" + selectedStation).then(res => res.json())
-            console.error(data);
             var filteredData: Array<any> = [];
             data.forEach(function(item: any){
                 var i = filteredData.findIndex(x => x.tripId == item.tripId);
@@ -55,6 +54,7 @@ export const Departures = (): JSX.Element | null => {
                         style={{marginLeft: "10px", marginRight: "10px", fontSize: "1em"}}
                         value={global?.window?.sessionStorage.getItem("selectedStation") || "pankow"}
                     >
+                        <option value="hennigsdorf">S Hennigsdorf</option>
                         <option value="pankow">S+U Pankow</option>
                         <option value="landsbergerAllee">S Landsberger Allee</option>
                         <option value="mollStrOttoBraunStr">Mollstr. / Otto-Braun-Str.</option>

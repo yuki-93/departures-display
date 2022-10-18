@@ -8,7 +8,8 @@ interface Stations {
 const LOCATIONS = {
     pankow: {name: "S+U Pankow", code: "900000130002"},
     landsbergerAllee: {name: "S Landsberger Allee", code: "900000110004"},
-    mollStrOttoBraunStr: {name: "Mollstr. / Otto-Braun-Str.", code: "900000100040"}
+    mollStrOttoBraunStr: {name: "Mollstr. / Otto-Braun-Str.", code: "900000100040"},
+    hennigsdorf: {name: "S Hennigsdorf", code: "900000200000"}
 }
 
 const client = createClient(vbbProfile, 'departures-display')
