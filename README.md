@@ -1,34 +1,21 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Depatures Display
 
-## Getting Started
+## Disclaimer
+This is mainly a hobby project, just to play around with the hafas-client (see below), nextjs and vercel deployment. It has my relevant stations as fixed config. 
 
-First, run the development server:
+Feel free to open issues or contribute.
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+## Third Party
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Timetable Data
+This projects makes use of the great [hafas-client](https://github.com/public-transport/hafas-client) package with the VBB (Verkehrsverbund Berlin-Brandenburg) as default profile.
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+### Assets
+The favicon is got from [favicon.io](https://favicon.io/emoji-favicons/metro).
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.tsx`.
+This favicon was generated using the following graphics from Twitter Twemoji:
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- Graphics Title: 1f687.svg
+- Graphics Author: Copyright 2020 Twitter, Inc and other contributors (https://github.com/twitter/twemoji)
+- Graphics Source: https://github.com/twitter/twemoji/blob/master/assets/svg/1f687.svg
+- Graphics License: CC-BY 4.0 (https://creativecommons.org/licenses/by/4.0/)
