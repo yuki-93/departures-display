@@ -1,0 +1,1 @@
+export type Stations = "pankow" | "landsbergerAllee" | "mollStrOttoBraunStr" | "hennigsdorf";

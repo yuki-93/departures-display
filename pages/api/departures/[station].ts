@@ -1,9 +1,8 @@
 import type { NextApiRequest, NextApiResponse } from "next"
+import { Stations } from "../../../types"
 
 const createClient = require('hafas-client')
 const vbbProfile = require('hafas-client/p/vbb')
-
-type Stations = "pankow" | "landsbergerAllee" | "mollStrOttoBraunStr" | "hennigsdorf";
 
 const LOCATIONS = {
     pankow: {name: "S+U Pankow", code: "900000130002"},

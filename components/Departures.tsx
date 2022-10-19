@@ -1,8 +1,9 @@
 import React, { useEffect, useState } from "react";
 import {Departure, DeparturesType} from "./Departure"
+import { defaultStation } from "./globals";
 
 export const Departures = (): JSX.Element | null => {
-    const [selectedStation, setSelectedStation] = useState(global?.window?.sessionStorage.getItem("selectedStation") || "hennigsdorf");
+    const [selectedStation, setSelectedStation] = useState(global?.window?.sessionStorage.getItem("selectedStation") || defaultStation);
     const [departures, setDepartures] = useState<Array<DeparturesType>>([]);
     const currentDate = new Date();
 
@@ -52,7 +53,7 @@ export const Departures = (): JSX.Element | null => {
                             setSelectedStation(e.target.value); 
                         }}
                         style={{marginLeft: "10px", marginRight: "10px", fontSize: "1em"}}
-                        value={global?.window?.sessionStorage.getItem("selectedStation") || "pankow"}
+                        value={selectedStation}
                     >
                         <option value="hennigsdorf">S Hennigsdorf</option>
                         <option value="pankow">S+U Pankow</option>
