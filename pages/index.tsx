@@ -7,7 +7,7 @@ export default function Home() {
       <Head>
         <title>Departures Display</title>
       </Head>
-      <main style={{fontFamily: "'Open Sans', sans-serif", fontStyle: "normal", fontSize: "13px"}}>
+      <main style={{fontFamily: "sans-serif", fontStyle: "normal", fontSize: "13px"}}>
         <Departures />
       </main>
     </>
