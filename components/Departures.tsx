@@ -52,7 +52,7 @@ export const Departures = (): JSX.Element | null => {
                             setSelectedStation(e.target.value); 
                         }}
                         style={{marginLeft: "10px", marginRight: "10px", fontSize: "1em"}}
-                        value={global?.window?.sessionStorage.getItem("selectedStation") || "pankow"}
+                        value={global?.window?.sessionStorage.getItem("selectedStation") || "hennigsdorf"}
                     >
                         <option value="hennigsdorf">S Hennigsdorf</option>
                         <option value="pankow">S+U Pankow</option>
