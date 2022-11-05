@@ -10,8 +10,8 @@ describe("Departure", () => {
             direction: "Mocked Terminus",
             line: "42",
             tripId: "1234567890",
-            plannedWhen: new Date(2020, 1, 1).getTime()
-        }
+            plannedWhen: new Date(2020, 1, 1).getTime(),
+        };
 
         const wrapper = render(<Departure {...input} />);
 
@@ -26,8 +26,8 @@ describe("Departure", () => {
             direction: "Mocked Terminus",
             line: "42",
             tripId: "1234567890",
-            plannedWhen: new Date(2020, 1, 1).getTime()
-        }
+            plannedWhen: new Date(2020, 1, 1).getTime(),
+        };
 
         const wrapper = render(<Departure {...input} />);
 
@@ -42,8 +42,8 @@ describe("Departure", () => {
             direction: "Mocked Terminus",
             line: "42",
             tripId: "1234567890",
-            plannedWhen: new Date(2020, 1, 1).getTime()
-        }
+            plannedWhen: new Date(2020, 1, 1).getTime(),
+        };
 
         const wrapper = render(<Departure {...input} />);
 
@@ -58,11 +58,11 @@ describe("Departure", () => {
             direction: "Mocked Terminus",
             line: "42",
             tripId: "1234567890",
-            plannedWhen: new Date(2020, 1, 1).getTime()
-        }
+            plannedWhen: new Date(2020, 1, 1).getTime(),
+        };
 
         const wrapper = render(<Departure {...input} />);
 
         expect(wrapper).toMatchSnapshot();
     });
-})
+});
