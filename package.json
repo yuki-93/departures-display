@@ -27,6 +27,6 @@
     "husky": "^8.0.3",
     "jest": "^29.7.0",
     "jest-environment-jsdom": "^29.7.0",
-    "typescript": "^5.2.2"
+    "typescript": "^5.3.2"
   }
 }
