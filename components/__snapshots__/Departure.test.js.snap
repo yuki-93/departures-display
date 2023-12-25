@@ -109,7 +109,7 @@ exports[`Departure delayed 2min 1`] = `
 }
 `;
 
-exports[`Departure earlier 2min 1`] = `
+exports[`Departure earlier 3min 1`] = `
 {
   "asFragment": [Function],
   "baseElement": <body>
@@ -128,7 +128,7 @@ exports[`Departure earlier 2min 1`] = `
         <div
           style="color: green; font-weight: bold;"
         >
-          Verspätung: -2 min
+          Verspätung: -3 min
         </div>
         <div>
           aktuelle Uhrzeit: 00:00 Uhr
@@ -154,7 +154,7 @@ exports[`Departure earlier 2min 1`] = `
       <div
         style="color: green; font-weight: bold;"
       >
-        Verspätung: -2 min
+        Verspätung: -3 min
       </div>
       <div>
         aktuelle Uhrzeit: 00:00 Uhr

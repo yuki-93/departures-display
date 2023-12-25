@@ -34,10 +34,10 @@ describe("Departure", () => {
         expect(wrapper).toMatchSnapshot();
     });
 
-    test("earlier 2min", () => {
+    test("earlier 3min", () => {
         const input = {
             when: new Date(2020, 1, 1).getTime(),
-            delay: -120,
+            delay: -180,
             cancelled: false,
             direction: "Mocked Terminus",
             line: "42",
