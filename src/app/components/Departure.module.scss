@@ -1,0 +1,31 @@
+.card-gray {
+  margin: 10px;
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid gray;
+  background-color: lightblue;
+  width: 300px;
+}
+
+.earlier {
+  background-color: rgba(0, 255, 0, 0.3);
+}
+
+.delayed {
+  background-color: rgba(255, 0, 0, 0.3);
+}
+
+.cancelled {
+  color: red;
+  font-weight: bold;
+}
+
+.card-title-earlier {
+  font-weight: bold;
+  color: green;
+}
+
+.card-title-delayed {
+  font-weight: bold;
+  color: red;
+}

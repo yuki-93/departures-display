@@ -1,0 +1,23 @@
+.headline {
+  margin: 10px;
+  font-size: 2em;
+}
+
+.select {
+  font-size: 1em;
+  margin: 0 10px;
+}
+
+.card-gray {
+  margin: 10px;
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid gray;
+  background-color: lightgray;
+  width: 300px;
+
+  & a {
+    font-weight: bold;
+    text-decoration: none;
+  }
+}

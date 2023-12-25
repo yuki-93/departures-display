@@ -6,7 +6,7 @@ exports[`Departure delayed 2min 1`] = `
   "baseElement": <body>
     <div>
       <div
-        style="border: 1px solid gray; border-radius: 10px; padding: 10px; margin: 10px; flex: 0 1 300px; background-color: rgba(255, 0, 0, 0.3);"
+        class="card-gray  delayed"
       >
         <div>
           42
@@ -14,10 +14,10 @@ exports[`Departure delayed 2min 1`] = `
           Mocked Terminus
         </div>
         <div
-          style="color: red; font-weight: bold;"
+          class="cancelled"
         />
         <div
-          style="color: red; font-weight: bold;"
+          class="card-title-delayed"
         >
           Verspätung: 2 min
         </div>
@@ -32,7 +32,7 @@ exports[`Departure delayed 2min 1`] = `
   </body>,
   "container": <div>
     <div
-      style="border: 1px solid gray; border-radius: 10px; padding: 10px; margin: 10px; flex: 0 1 300px; background-color: rgba(255, 0, 0, 0.3);"
+      class="card-gray  delayed"
     >
       <div>
         42
@@ -40,10 +40,10 @@ exports[`Departure delayed 2min 1`] = `
         Mocked Terminus
       </div>
       <div
-        style="color: red; font-weight: bold;"
+        class="cancelled"
       />
       <div
-        style="color: red; font-weight: bold;"
+        class="card-title-delayed"
       >
         Verspätung: 2 min
       </div>
@@ -115,7 +115,7 @@ exports[`Departure earlier 3min 1`] = `
   "baseElement": <body>
     <div>
       <div
-        style="border: 1px solid gray; border-radius: 10px; padding: 10px; margin: 10px; flex: 0 1 300px; background-color: rgba(0, 255, 0, 0.3);"
+        class="card-gray earlier "
       >
         <div>
           42
@@ -123,10 +123,10 @@ exports[`Departure earlier 3min 1`] = `
           Mocked Terminus
         </div>
         <div
-          style="color: red; font-weight: bold;"
+          class="cancelled"
         />
         <div
-          style="color: green; font-weight: bold;"
+          class="card-title-earlier"
         >
           Verspätung: -3 min
         </div>
@@ -141,7 +141,7 @@ exports[`Departure earlier 3min 1`] = `
   </body>,
   "container": <div>
     <div
-      style="border: 1px solid gray; border-radius: 10px; padding: 10px; margin: 10px; flex: 0 1 300px; background-color: rgba(0, 255, 0, 0.3);"
+      class="card-gray earlier "
     >
       <div>
         42
@@ -149,10 +149,10 @@ exports[`Departure earlier 3min 1`] = `
         Mocked Terminus
       </div>
       <div
-        style="color: red; font-weight: bold;"
+        class="cancelled"
       />
       <div
-        style="color: green; font-weight: bold;"
+        class="card-title-earlier"
       >
         Verspätung: -3 min
       </div>
@@ -224,7 +224,7 @@ exports[`Departure on time 1`] = `
   "baseElement": <body>
     <div>
       <div
-        style="border: 1px solid gray; border-radius: 10px; padding: 10px; margin: 10px; flex: 0 1 300px; background-color: lightblue;"
+        class="card-gray  "
       >
         <div>
           42
@@ -242,7 +242,7 @@ exports[`Departure on time 1`] = `
   </body>,
   "container": <div>
     <div
-      style="border: 1px solid gray; border-radius: 10px; padding: 10px; margin: 10px; flex: 0 1 300px; background-color: lightblue;"
+      class="card-gray  "
     >
       <div>
         42
@@ -317,7 +317,7 @@ exports[`Departure with nullable values 1`] = `
   "baseElement": <body>
     <div>
       <div
-        style="border: 1px solid gray; border-radius: 10px; padding: 10px; margin: 10px; flex: 0 1 300px; background-color: lightblue;"
+        class="card-gray  "
       >
         <div>
           42
@@ -333,7 +333,7 @@ exports[`Departure with nullable values 1`] = `
   </body>,
   "container": <div>
     <div
-      style="border: 1px solid gray; border-radius: 10px; padding: 10px; margin: 10px; flex: 0 1 300px; background-color: lightblue;"
+      class="card-gray  "
     >
       <div>
         42
