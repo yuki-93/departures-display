@@ -1,3 +1,3 @@
-import { Stations } from "../types";
+import { Stations } from "../../../types";
 
 export const defaultStation: Stations = "hennigsdorf";

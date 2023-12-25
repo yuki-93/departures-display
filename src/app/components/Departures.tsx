@@ -1,8 +1,9 @@
+'use client';
 import React, { useEffect, useState } from "react";
 import { Departure, DeparturesType } from "./Departure";
 import { defaultStation } from "./globals";
 
-export const Departures = (): JSX.Element | null => {
+export const Departures = (): React.ReactNode => {
     const [selectedStation, setSelectedStation] = useState(
         global?.window?.sessionStorage.getItem("selectedStation") ||
             defaultStation
