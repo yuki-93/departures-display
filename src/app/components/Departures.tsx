@@ -75,7 +75,6 @@ export const Departures = (): React.ReactNode => {
             value={selectedStation}
           >
             <option value="hennigsdorf">S Hennigsdorf</option>
-            <option value="pankow">S+U Pankow</option>
             <option value="landsbergerAllee">S Landsberger Allee</option>
             <option value="mollStrOttoBraunStr">
               Mollstr. / Otto-Braun-Str.

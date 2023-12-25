@@ -5,7 +5,6 @@ const createClient = require("hafas-client");
 const vbbProfile = require("hafas-client/p/vbb");
 
 const LOCATIONS = {
-    pankow: { name: "S+U Pankow", code: "900000130002" },
     landsbergerAllee: { name: "S Landsberger Allee", code: "900000110004" },
     mollStrOttoBraunStr: {
         name: "Mollstr. / Otto-Braun-Str.",
